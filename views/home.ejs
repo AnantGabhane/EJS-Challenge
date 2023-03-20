@@ -1,0 +1,14 @@
+
+    <%- include("/home/anant/EJS-Challenge/views/partials/header.ejs") %>
+    <h1>Home </h1>
+    <p><%= StartingContent %></p>
+    <%     console.log(posts);    %>
+
+    <% for(var i=0; i<posts.length ; i++){ %>
+                <!-- <%= posts[i]%> -->
+                <%     console.log(posts[i].title);    %>
+
+        <% } %>
+    <!-- <%     console.log(posts[i]);    %> -->
+    <%- include("/home/anant/EJS-Challenge/views/partials/footer.ejs") %>
+
